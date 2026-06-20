@@ -1,0 +1,95 @@
+/* navbar*/
+
+.nav{
+    background-color: rgb(19, 2, 112);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-link:link{
+     color: rgb(190, 190, 14);
+}
+
+.nav-link:visited{
+     color: rgb(190, 190, 14);
+}
+
+.nav-link:hover{
+     color: rgb(190, 190, 14);
+}
+
+.nav-link:active{
+     color: rgb(190, 190, 14);
+}
+
+/*titoli*/
+
+h1{
+    color: rgb(190, 190, 14);
+}
+
+.intro{
+    color: rgb(190, 190, 14);
+}
+
+/*sezioni*/
+
+.ul1{
+    color: rgb(190, 190, 14);
+}
+
+.sec1{
+    background-color: rgb(190, 190, 14);
+    color: rgb(19, 2, 112);
+}
+
+/*header*/
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('media/Img/galleria.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.userHeight{
+    height: 70vh;
+}
+
+.ceramiche{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('media/Img/galleria.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.aboutC{
+    background-color: rgb(190, 190, 14);
+    color: rgb(19, 2, 112);
+}
+
+.cardImg{
+    height: 250px;
+    object-position: center;
+}
+
+.cardColor{
+    background-color: antiquewhite;
+}
+
+.btnInfo{
+    background-color: rgb(19, 2, 112);
+    color: rgb(190, 190, 14);
+    margin: 1px;
+}
